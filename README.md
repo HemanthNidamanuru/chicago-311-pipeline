@@ -65,7 +65,6 @@ Built in Tableau, connected live to the gold layer:
 - Requests by type
 - Resolution rate
 - Response time by type
-- Geographic distribution of requests
 
 ## Automated Reporting
 
@@ -74,7 +73,6 @@ After a successful run, `05_send_report` emails a summary covering new and updat
 ## Known Limitations
 
 - The report email is sent from a personal address without domain authentication (SPF/DKIM), so it can occasionally land in spam. A production setup would use an authenticated custom domain.
-- Built against Tableau Public rather than Desktop, which required installing the Databricks ODBC driver separately since Tableau Public doesn't support a live Databricks connection natively.
 
 ## Data Source
 
